@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD181C02D6D9EA900F26CD9 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 2CD181BF2D6D9EA900F26CD9 /* Realm */; };
+		2CD181C22D6D9EA900F26CD9 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2CD181C12D6D9EA900F26CD9 /* RealmSwift */; };
+		2CD181C62D6DA0AD00F26CD9 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2CD181C52D6DA0AD00F26CD9 /* RealmSwift */; };
+		2CD181C72D6DA11B00F26CD9 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 2CD181C52D6DA0AD00F26CD9 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CD181922D6D95BB00F26CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CD181732D6D95B800F26CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD1817A2D6D95B900F26CD9;
+			remoteInfo = Lazapee;
+		};
+		2CD1819C2D6D95BB00F26CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CD181732D6D95B800F26CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD1817A2D6D95B900F26CD9;
+			remoteInfo = Lazapee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CD181C82D6DA11B00F26CD9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2CD181C72D6DA11B00F26CD9 /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2CD1817B2D6D95B900F26CD9 /* Lazapee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lazapee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD181912D6D95BB00F26CD9 /* LazapeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazapeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD1819B2D6D95BB00F26CD9 /* LazapeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazapeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2CD181A32D6D95BB00F26CD9 /* Exceptions for "Lazapee" folder in "Lazapee" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2CD1817A2D6D95B900F26CD9 /* Lazapee */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2CD1817D2D6D95B900F26CD9 /* Lazapee */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2CD181A32D6D95BB00F26CD9 /* Exceptions for "Lazapee" folder in "Lazapee" target */,
+			);
+			path = Lazapee;
+			sourceTree = "<group>";
+		};
+		2CD181942D6D95BB00F26CD9 /* LazapeeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LazapeeTests;
+			sourceTree = "<group>";
+		};
+		2CD1819E2D6D95BB00F26CD9 /* LazapeeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LazapeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD181782D6D95B900F26CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD181C62D6DA0AD00F26CD9 /* RealmSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD1818E2D6D95BB00F26CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD181C22D6D9EA900F26CD9 /* RealmSwift in Frameworks */,
+				2CD181C02D6D9EA900F26CD9 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD181982D6D95BB00F26CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD181722D6D95B800F26CD9 = {
+			isa = PBXGroup;
+			children = (
+				2CD1817D2D6D95B900F26CD9 /* Lazapee */,
+				2CD181942D6D95BB00F26CD9 /* LazapeeTests */,
+				2CD1819E2D6D95BB00F26CD9 /* LazapeeUITests */,
+				2CD1817C2D6D95B900F26CD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CD1817C2D6D95B900F26CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CD1817B2D6D95B900F26CD9 /* Lazapee.app */,
+				2CD181912D6D95BB00F26CD9 /* LazapeeTests.xctest */,
+				2CD1819B2D6D95BB00F26CD9 /* LazapeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CD1817A2D6D95B900F26CD9 /* Lazapee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD181A42D6D95BB00F26CD9 /* Build configuration list for PBXNativeTarget "Lazapee" */;
+			buildPhases = (
+				2CD181772D6D95B900F26CD9 /* Sources */,
+				2CD181782D6D95B900F26CD9 /* Frameworks */,
+				2CD181792D6D95B900F26CD9 /* Resources */,
+				2CD181C82D6DA11B00F26CD9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2CD1817D2D6D95B900F26CD9 /* Lazapee */,
+			);
+			name = Lazapee;
+			packageProductDependencies = (
+				2CD181C52D6DA0AD00F26CD9 /* RealmSwift */,
+			);
+			productName = Lazapee;
+			productReference = 2CD1817B2D6D95B900F26CD9 /* Lazapee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CD181902D6D95BB00F26CD9 /* LazapeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD181A92D6D95BB00F26CD9 /* Build configuration list for PBXNativeTarget "LazapeeTests" */;
+			buildPhases = (
+				2CD1818D2D6D95BB00F26CD9 /* Sources */,
+				2CD1818E2D6D95BB00F26CD9 /* Frameworks */,
+				2CD1818F2D6D95BB00F26CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD181932D6D95BB00F26CD9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2CD181942D6D95BB00F26CD9 /* LazapeeTests */,
+			);
+			name = LazapeeTests;
+			packageProductDependencies = (
+				2CD181BF2D6D9EA900F26CD9 /* Realm */,
+				2CD181C12D6D9EA900F26CD9 /* RealmSwift */,
+			);
+			productName = LazapeeTests;
+			productReference = 2CD181912D6D95BB00F26CD9 /* LazapeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CD1819A2D6D95BB00F26CD9 /* LazapeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD181AC2D6D95BB00F26CD9 /* Build configuration list for PBXNativeTarget "LazapeeUITests" */;
+			buildPhases = (
+				2CD181972D6D95BB00F26CD9 /* Sources */,
+				2CD181982D6D95BB00F26CD9 /* Frameworks */,
+				2CD181992D6D95BB00F26CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD1819D2D6D95BB00F26CD9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2CD1819E2D6D95BB00F26CD9 /* LazapeeUITests */,
+			);
+			name = LazapeeUITests;
+			packageProductDependencies = (
+			);
+			productName = LazapeeUITests;
+			productReference = 2CD1819B2D6D95BB00F26CD9 /* LazapeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CD181732D6D95B800F26CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					2CD1817A2D6D95B900F26CD9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					2CD181902D6D95BB00F26CD9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2CD1817A2D6D95B900F26CD9;
+					};
+					2CD1819A2D6D95BB00F26CD9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2CD1817A2D6D95B900F26CD9;
+					};
+				};
+			};
+			buildConfigurationList = 2CD181762D6D95B800F26CD9 /* Build configuration list for PBXProject "Lazapee" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CD181722D6D95B800F26CD9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2CD181B72D6D9AF400F26CD9 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2CD1817C2D6D95B900F26CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CD1817A2D6D95B900F26CD9 /* Lazapee */,
+				2CD181902D6D95BB00F26CD9 /* LazapeeTests */,
+				2CD1819A2D6D95BB00F26CD9 /* LazapeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CD181792D6D95B900F26CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD1818F2D6D95BB00F26CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD181992D6D95BB00F26CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD181772D6D95B900F26CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD1818D2D6D95BB00F26CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD181972D6D95BB00F26CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CD181932D6D95BB00F26CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CD1817A2D6D95B900F26CD9 /* Lazapee */;
+			targetProxy = 2CD181922D6D95BB00F26CD9 /* PBXContainerItemProxy */;
+		};
+		2CD1819D2D6D95BB00F26CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CD1817A2D6D95B900F26CD9 /* Lazapee */;
+			targetProxy = 2CD1819C2D6D95BB00F26CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CD181A52D6D95BB00F26CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9DQTT7PHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lazapee/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = duykhang.Lazapee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CD181A62D6D95BB00F26CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9DQTT7PHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lazapee/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = duykhang.Lazapee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CD181A72D6D95BB00F26CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CD181A82D6D95BB00F26CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CD181AA2D6D95BB00F26CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9DQTT7PHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = duykhang.LazapeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazapee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lazapee";
+			};
+			name = Debug;
+		};
+		2CD181AB2D6D95BB00F26CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9DQTT7PHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = duykhang.LazapeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazapee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lazapee";
+			};
+			name = Release;
+		};
+		2CD181AD2D6D95BB00F26CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9DQTT7PHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = duykhang.LazapeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lazapee;
+			};
+			name = Debug;
+		};
+		2CD181AE2D6D95BB00F26CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9DQTT7PHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = duykhang.LazapeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lazapee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CD181762D6D95B800F26CD9 /* Build configuration list for PBXProject "Lazapee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD181A72D6D95BB00F26CD9 /* Debug */,
+				2CD181A82D6D95BB00F26CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD181A42D6D95BB00F26CD9 /* Build configuration list for PBXNativeTarget "Lazapee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD181A52D6D95BB00F26CD9 /* Debug */,
+				2CD181A62D6D95BB00F26CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD181A92D6D95BB00F26CD9 /* Build configuration list for PBXNativeTarget "LazapeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD181AA2D6D95BB00F26CD9 /* Debug */,
+				2CD181AB2D6D95BB00F26CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD181AC2D6D95BB00F26CD9 /* Build configuration list for PBXNativeTarget "LazapeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD181AD2D6D95BB00F26CD9 /* Debug */,
+				2CD181AE2D6D95BB00F26CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2CD181B72D6D9AF400F26CD9 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2CD181BF2D6D9EA900F26CD9 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CD181B72D6D9AF400F26CD9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		2CD181C12D6D9EA900F26CD9 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CD181B72D6D9AF400F26CD9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		2CD181C52D6DA0AD00F26CD9 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CD181B72D6D9AF400F26CD9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2CD181732D6D95B800F26CD9 /* Project object */;
+}
